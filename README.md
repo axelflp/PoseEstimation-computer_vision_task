@@ -20,3 +20,26 @@ Proposed in the medical context in 2015, has shown a good performance extracting
   <img src="images/u-net.png" alt="Example0" width="600"/>
 
 </div>
+
+## Data
+The data used to trained our model was released for the competition [OpenMonkeyChallenge](https://competitions.codalab.org/competitions/34342) in 2021. It is divided into train, validation and test data, and contains images and annotations for each image with the target landmarks.
+
+## Preprocessing
+
+As you can see in the images showed above, the images have diferent dimensions, perspectives, resolutions, so we need to stardize the the format. The applied transformations are as follow:
+
+First off, we cut de images so that the figure of the figure if the monkey is centered and occupies most of the images. For this we laverage the bbox value contained in the annotations, this is a list of four numeric values that give us the coordinates of two points that delimit the region of the image that contain de monkey figure. NOTE: the landmarks are define such that they matches with the cut image.
+
+Second, once we have cut the image it is necesary to stardadize the dimensions of the images in order to feed them into out model, so we reescale the images to 200x200 size, and adjusted our respective landmarks.
+
+
+
+
+
+
+
+
+
+
+
+
