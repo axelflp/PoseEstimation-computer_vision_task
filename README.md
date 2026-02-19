@@ -15,4 +15,4 @@ Implementation of the basic U-net architecture for pose estimation task with the
 
 Proposed in the medical context in 2015, has shown a good performance extracting information of images, it is compose of two parts, a downsampling phase follow by an upsampling phase, connected between the by skip conections and an bottleneck. Convolutions are the biulding block of this architecture.
 
-![unet](images/u-net.png){width=400}
+![unet](images/u-net.png){width=200}
