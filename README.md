@@ -1,6 +1,6 @@
-# PoseEstimation
-Monkey Pose Estimation - U-net Architecture
+# Pose Estimation Taks
 
+Implementation of the basic U-net architecture for pose estimation task with the data available in [this link](https://www.kaggle.com/datasets/danielchang2002/openmonkeychallenge)
 
 <div style="display: flex; justify-content: space-between;">
 
@@ -10,3 +10,9 @@ Monkey Pose Estimation - U-net Architecture
   <img src="images/example3.jpg" alt="Example2" width="250"/>
 
 </div>
+
+## Architecture
+
+Proposed in the medical context in 2015, has shown a good performance extracting information of images, it is compose of two parts, a downsampling phase follow by an upsampling phase, connected between the by skip conections and an bottleneck. Convolutions are the biulding block of this architecture.
+
+![unet](images/unet.png)
