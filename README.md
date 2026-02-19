@@ -17,6 +17,6 @@ Proposed in the medical context in 2015, has shown a good performance extracting
 
 <div style="display: flex; justify-content: space-between;">
 
-  <img src="images/u-net.png" alt="Example0" width="400"/>
+  <img src="images/u-net.png" alt="Example0" width="600"/>
 
 </div>
