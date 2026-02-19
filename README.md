@@ -8,4 +8,4 @@ Monkey Pose Estimation - U-net Architecture
   <img src="images/example1.jpg" alt="Example1" width="200"/>
   <img src="images/example2.jpg" alt="Example2" width="200"/>
 
-</div>2.jpg)
+</div>
