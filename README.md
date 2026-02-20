@@ -28,7 +28,11 @@ As you can see in the images showed above, the images have diferent dimensions, 
 First off, we cut de images so that the figure of the monkey is centered and occupies most of the images. For this we laverage the bbox value contained in the annotations, this is a list of four numeric values that give us the coordinates of two points that delimit the region of the image that contain de monkey figure. We also adjust the landmarks to this transformation
 
 Second, once we have cut the image it is necesary to stardadize the dimensions of the images in order to feed them into out model, so we reescale the images to 200x200 size, and adjusted our respective landmarks.
+<div style="display: flex; justify-content: space-between;">
 
+  <img src="images/preprocessing.png" alt="preprocessing" width="600"/>
+
+</div>
 
 
 ## Reviewing trained model
