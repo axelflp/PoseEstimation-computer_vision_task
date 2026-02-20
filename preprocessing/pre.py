@@ -1,7 +1,7 @@
 import numpy as np
 
 
-# This function adjust the landmarks for a cut image following  the bbox annotation
+# This function adjusts the landmarks for a cut image following  the bbox annotation
 def adjust_landmarks(data_list):
     for i in range(len(data_list)):
 
