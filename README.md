@@ -41,7 +41,7 @@ Second, once we have cut the image it is necesary to stardadize the dimensions o
 
 <div style="display: flex; justify-content: space-between;">
 
-  <img src="images/re.png" alt="results" width="600"/>
+  <img src="images/res.png" alt="results" width="600"/>
 
 </div>
 
