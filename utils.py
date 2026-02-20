@@ -8,15 +8,15 @@ import matplotlib.collections as mc
 import matplotlib.image as mpimg
 
 
-# function to plot
+# Plotting function
 
-# edges between points, each value is th index of a point, there are 15 edges
+# Edges between points; each value is the index of a point (15 edges total)
 connections = [[0,2],[2,1],[3,4],[4,5],[5,6],[6,7],[4,8],[8,9],[9,10],[4,11],[11,12],[12,13],[11,14],[14,15],[11,16]]
 
 def brid_pl(landmarks):
 
     landmarks = np.reshape(landmarks,(-1,2)).tolist()
-    # list of pair of points that are linked
+    # list of pairs of points that are linked
     connec = [[landmarks[j],landmarks[k]] for j, k in connections]
     # [[x,y],[x, y]] -> [[x,x],[y,y]]
     connec_pl = chain(*np.array(connec).transpose((0,2,1)).tolist())
