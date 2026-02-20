@@ -18,7 +18,7 @@ Originally proposed for medical imaging in 2015, U-Net has demonstrated strong p
 In this implementation, we used the same number of channels throughout the network, except for the first layer because the input images contain three channels. Additionally, we added a feed-forward neural network at the end to generate the final predictions.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="images/u-net.png" alt="U-Net architecture" width="600"/>
+  <img src="images/u-net.png" alt="U-Net architecture" width="600"/><br>
   <span style="font-size: 12px; color: #555; margin-top: 6px;">
     Source: Ronneberger et al., 2015 — U-Net: Convolutional Networks for Biomedical Image Segmentation
   </span>
